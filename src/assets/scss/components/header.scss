@@ -3,7 +3,11 @@
 @import "../utils/mixins";
 
 .header {
-    padding: 2rem 0;
+    position: absolute;
+    top: -5.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
     background-color: $c-secondary;
 
     &__row {

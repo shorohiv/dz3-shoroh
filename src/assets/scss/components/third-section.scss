@@ -1,0 +1,82 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.third-section {
+    
+    &__row {
+        display: flex;
+        background: #F4F5F6;
+        border-radius: 5rem;
+        max-height: 55rem;
+        
+       
+        &__imgs-col {
+            width: 40%;
+            
+            
+        }
+       
+    }
+    
+       
+}
+.container {
+    margin-top: 10rem;
+    position: relative;
+
+}
+
+.pics {
+    
+    &__phone {
+        position: relative;
+        top: -5rem;
+        left: 17.5rem;
+        z-index: 1;
+    }
+    &__glass {
+        position: absolute;
+        top: 11rem;
+        left: 8rem;
+        
+    }
+    &__chips {
+        position: absolute;
+        bottom: -4.7rem;
+        left: 36rem;
+        z-index: 2;
+    }
+
+}
+.third-section__text {
+    margin: 20rem 15rem auto;
+    margin-left: 25rem;
+    
+
+}
+    .first-text {
+        margin: 1.5rem 0;
+        color: $c-text2;
+        font-size: 1.8rem;
+        line-height: 100%
+        
+        
+    }
+    .title {
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 138%;
+        color:  $c-text;
+        display: inline-block;
+        max-width: 20rem;
+        margin: 1.5rem 0;
+    }
+    .second-text {
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: $c-text2;
+        max-width: 75rem;
+        margin: 2rem 0;
+    }
+    

@@ -265,7 +265,11 @@ button {
   margin: 0 auto; }
 
 .header {
-  padding: 2rem 0;
+  position: absolute;
+  top: -5.5rem;
+  left: 0;
+  right: 0;
+  z-index: 1;
   background-color: #F5F6F7; }
   .header__row {
     display: flex;
@@ -296,7 +300,7 @@ button {
     padding: 2rem 3rem; }
 
 .first-section {
-  max-height: 68rem;
+  max-height: 61rem;
   padding: 10rem 0 20rem;
   background-color: #F5F6F7; }
   .first-section .container {
@@ -323,11 +327,11 @@ button {
     margin-top: 1rem auto; }
     .first-section__button img {
       margin-left: 1rem; }
-  .first-section__pic {
+  .first-section__pic img {
     position: absolute;
-    max-width: 70%;
-    right: -2rem;
-    bottom: -20rem; }
+    max-width: 57vw;
+    right: 5rem;
+    bottom: -10rem; }
 
 .blue {
   color: #00CCCC;
@@ -337,11 +341,82 @@ button {
   color: #F3AF47; }
 
 .items {
-  padding: 10rem 0; }
+  padding: 5rem 0; }
   .items__row {
+    margin: -2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center; }
 
 .item {
-  padding: 0 2 rem; }
+  width: 33.3333%;
+  padding: 0 2.5rem; }
+  .item__title {
+    margin: 2.9rem 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 130%;
+    letter-spacing: 0.2px;
+    color: #0F2336; }
+  .item__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #576D81; }
+
+.third-section__row {
+  display: flex;
+  background: #F4F5F6;
+  border-radius: 5rem;
+  max-height: 55rem; }
+  .third-section__row__imgs-col {
+    width: 40%; }
+
+.container {
+  margin-top: 10rem;
+  position: relative; }
+
+.pics__phone {
+  position: relative;
+  top: -5rem;
+  left: 17.5rem;
+  z-index: 1; }
+
+.pics__glass {
+  position: absolute;
+  top: 11rem;
+  left: 8rem; }
+
+.pics__chips {
+  position: absolute;
+  bottom: -4.7rem;
+  left: 36rem;
+  z-index: 2; }
+
+.third-section__text {
+  margin: 20rem 15rem auto;
+  margin-left: 25rem; }
+
+.first-text {
+  margin: 1.5rem 0;
+  color: #576D81;
+  font-size: 1.8rem;
+  line-height: 100%; }
+
+.title {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 138%;
+  color: #0F2336;
+  display: inline-block;
+  max-width: 20rem;
+  margin: 1.5rem 0; }
+
+.second-text {
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #576D81;
+  max-width: 75rem;
+  margin: 2rem 0; }
