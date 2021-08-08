@@ -1,0 +1,11 @@
+.items 
+    .container  
+        .items__row 
+            mixin item(img, title, description)
+                .item
+                    img(src=img, alt=about).item__img
+                    .item__title=title
+                    .item__description=description
+            +item("./assets/imgs/button1.png","Order ahead, skip the line","Feel like a rock star when you bypass the line and save a bunch of time.")
+            +item("./assets/imgs/button2.png","Bonus and discounts","You can enjoy lots of discounts from the selected stores, or accumulate points.")
+            +item("./assets/imgs/button3.png","Share with your friends","Send gifts to your friends and family, and pick up for your coworkers when they can't get away .")

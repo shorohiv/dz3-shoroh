@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "app.scss",
+        "utils/_parameters.scss",
+        "utils/_mixins.scss",
+        "components/header.scss",
+        "utils/_parameters.scss",
+        "utils/_mixins.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}

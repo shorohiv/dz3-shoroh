@@ -1,0 +1,20 @@
+// Помощники
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.items {
+    padding: 10rem 0;
+    
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+.item {
+    padding: 0 2 rem;
+    img {}
+    &__title {}
+    &__description {}
+}

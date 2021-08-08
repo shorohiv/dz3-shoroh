@@ -1,0 +1,58 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.first-section {
+    max-height: 68rem;
+    padding: 10rem 0 20rem;
+    background-color: $c-secondary;
+    
+    .container {
+        position: relative;
+    }
+    &__content {
+        max-width: 55rem;
+        
+    }
+
+    &__tytle {
+        color: $c-text;
+        font-weight: bold;
+        font-size: 5.5rem;
+        letter-spacing: 0.111rem; 
+        line-height: 138%;
+
+    }
+
+    &__button {
+        display: inline-flex;
+        font-size: 1.8rem;
+        line-height: 120%;
+        color: $c-text;
+        background: $c-primary;
+        border: 1px solid $c-primary;
+        box-sizing: border-box;
+        box-shadow: 0px 3px 18px rgba(0, 201, 201, 0.55);
+        border-radius: 1.4rem;
+        padding: 2rem 3rem;
+        margin-top: 1rem auto;
+
+        img {
+            margin-left: 1rem;
+        }
+    }
+
+    &__pic {
+     position: absolute;  
+     max-width: 70%;
+     right: -2rem;
+     bottom: -20rem;
+    
+    }
+}
+.blue {
+    color: $c-primary;
+    display: block;
+}
+.orange {
+    color: #F3AF47;
+}
