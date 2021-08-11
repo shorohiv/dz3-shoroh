@@ -62,3 +62,35 @@
 .orange {
     color: #F3AF47;
 }
+
+@media  screen and (max-width: $md) {
+    .first-section {
+        &__tytle {
+    font-size: 4.5rem;
+        }
+    }
+}
+@media  screen and (max-width: $sm) {
+    .first-section {
+        &__content{
+        max-width: 50rem;}
+        &__tytle {
+        font-size: 4rem;
+        }
+    } 
+}
+@media  screen and (max-width: $xs) {
+    .first-section {
+        max-height: 50rem;
+        &__content{
+        max-width: 30rem;}
+        &__tytle {
+        font-size: 3rem;
+        }
+        img {
+            right: 0rem;
+            bottom: -11rem;
+        }
+    } 
+    
+}

@@ -9,9 +9,10 @@
         border-radius: 5rem;
         max-height: 55rem;
         
+        
        
         &__imgs-col {
-            width: 40%;
+            width: 40vw;
             
             
         }
@@ -79,4 +80,33 @@
         max-width: 75rem;
         margin: 2rem 0;
     }
-    
+    @media  screen and (max-width: $md) {
+        .third-section__row {
+            flex-wrap: wrap;
+        }
+
+    @media  screen and (max-width: $sm) {
+        .third-section__row {
+            flex-wrap: wrap;
+        }
+        .pics {
+            width: 100%;
+        }
+        .third-section__text {        
+        margin: 9rem 7rem;
+        margin-left: 13rem;
+        }
+    }
+
+    @media  screen and (max-width: $xs) {
+        .third-section__row {
+            flex-wrap: wrap;
+        }
+        .third-section__text {
+        margin: 5rem 7rem;
+        }
+        .third-section__imgs-col {
+            width: 30%;
+        }
+        
+    }

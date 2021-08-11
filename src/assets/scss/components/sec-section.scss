@@ -5,11 +5,13 @@
 .items {
     padding: 5rem 0;
     
+    
     &__row {
         margin: -2.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
         
     }
 
@@ -17,6 +19,7 @@
 .item {
     width: 33.3333%;
     padding: 0 2.5rem;
+    
 
     img {}
 
@@ -36,4 +39,32 @@
         line-height: 150%;
         color: $c-text2;
     }
+}
+
+@media  screen and (max-width: $sm) {
+    .items {
+        padding: 2rem 0;
+        &__row {
+            flex-wrap: wrap;
+        }
+    }
+    .item {
+        width: 50%;
+        padding: 2rem 2rem;
+    }
+
+}
+@media  screen and (max-width: $xs) {
+    .items {
+        padding: 0;
+        &__row {
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+    }
+    .item {
+        width: 50%;
+        padding: 2rem 2rem;
+    }
+
 }
